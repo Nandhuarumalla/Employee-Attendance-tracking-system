@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom Tailwind overrides below */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
