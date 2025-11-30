@@ -1,5 +1,7 @@
+Name:Arumalla Nandini
+College Name:Vignan's Lara Institute of Technology and Science
+Phone No:7013360967
 # Employee-Attendance-tracking-system
-
 
 A full-stack web application for managing employee attendance, tracking work hours, and generating comprehensive analytics reports. Built with Node.js/Express backend and React frontend with advanced data visualization capabilities.
 
@@ -355,50 +357,7 @@ npm run build
    - Filter by date range and employee
    - Export report data
 
-## 🐛 Troubleshooting
 
-### Application Won't Start
-
-**Frontend Error: "Cannot find module"**
-```bash
-cd frontend
-rm -rf node_modules package-lock.json
-npm install
-npm start
-```
-
-**Backend Error: "Cannot connect to MongoDB"**
-- Verify MongoDB is running: `mongod`
-- Check MONGODB_URI in `.env` file
-- Ensure connection string is correct
-
-### JWT Token Issues
-
-**"Invalid token" error on API calls**
-- Clear browser localStorage: `localStorage.clear()`
-- Logout and login again
-- Check JWT_SECRET in backend `.env`
-
-### CORS Errors
-
-**"Access to XMLHttpRequest blocked by CORS"**
-- Verify CORS_ORIGIN in backend `.env`
-- Ensure frontend URL matches CORS_ORIGIN
-- Restart backend server
-
-### CSV Export Not Working
-
-**Empty or malformed CSV files**
-- Verify attendance data exists in database
-- Check data mapping in export function
-- Verify user has proper permissions
-
-### Charts Not Displaying
-
-**Charts show "No data available"**
-- Ensure attendance records exist for the date range
-- Verify user has correct role (manager for reports)
-- Clear browser cache and reload
 
 ## 📊 Database Schema
 
